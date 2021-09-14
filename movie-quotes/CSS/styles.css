@@ -1,0 +1,28 @@
+.quote {
+    font-style: italic;
+    color: chartreuse;
+}
+p{ 
+    text-align: center;
+    color:rgb(58, 116, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    color: rgb(189, 0, 0);
+}
+html{
+    background-color: black;
+}
+h1{
+    font-stretch: wider;
+}
+h2{
+    font-size: 0ex ;
+}
+.footer{
+    font-size: 30pt;
+}
+.action{
+    color: rgb(24, 71, 40);
+}
