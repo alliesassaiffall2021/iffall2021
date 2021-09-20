@@ -1,0 +1,110 @@
+html {
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    background-color: rgb(211, 180, 140);
+    }
+.intro{
+    font-size: 28px;
+    text-align:right;
+    
+}
+cite{
+    text-align: left;
+    display:block;
+}
+article{
+    margin: 10px;}
+body{
+     margin: 10%;}
+section{
+        margin: 3.5em 0;
+}
+
+header{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 34px;
+    text-indent: -20px;
+    text-transform:uppercase;
+}
+.weight1{
+    font-weight: normal;
+    color:rgb(77, 77, 77)
+}
+.weight2{
+    font-weight: bold;
+    color:rgb(77, 77, 77)
+}
+.description{
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(116, 116, 116);
+}
+    
+.style1{
+    font-style: normal;
+    color:rgb(77, 77, 77)
+}
+.style2{
+    font-style: italic;
+    color:rgb(77, 77, 77)
+}
+.spacing1{
+    letter-spacing: normal;
+    color:rgb(77, 77, 77)
+}
+.spacing2{
+    letter-spacing: .3em;
+    color:rgb(77, 77, 77)
+}
+.spacing3{
+    letter-spacing: -.06em;
+    color:rgb(77, 77, 77)
+}
+.decoration1{
+    text-decoration: none;
+    color:rgb(77, 77, 77)
+}
+.decoration2{
+    text-decoration: underline;
+    color:rgb(77, 77, 77)
+}
+.decoration3{
+    text-decoration: line-through;
+    color:rgb(77, 77, 77)
+}
+.decoration4{
+    text-decoration: overline;
+    color:rgb(77, 77, 77)
+}
+.transform1{
+    text-transform: none;
+    color:rgb(77, 77, 77)
+}
+.transform2{
+    text-transform:uppercase;
+    color:rgb(77, 77, 77)
+}
+.transform3{
+    text-transform: lowercase;
+    color:rgb(77, 77, 77)
+}
+.transform4{
+    text-transform: capitalize;
+    color:rgb(77, 77, 77)
+}
+.fabfa-r-project{
+    font-size: 100px;
+    text-align: right;
+}
+footer{
+    text-transform: lowercase;
+    font-size: 16px;
+    margin: -20px;
+    text-align: right;
+}
