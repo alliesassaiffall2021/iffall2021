@@ -1,0 +1,110 @@
+.recipedescription{
+    text-align: right;
+    font-size: 100;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ .bundtcake{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+ }
+
+html {
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 2px;
+    background-color: rgb(245, 234, 174);
+}
+.bake-time{
+    font-style: normal;
+}
+.peer-review{
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    font-size: 27px;
+}
+.recipename{
+        text-transform: capitalize;
+        text-align: right;
+        font-size: 25px;
+        text-indent: -60px;
+        margin: -5px;
+        
+}
+.recipetitle{
+    text-transform: capitalize;
+    color:rgb(124, 108, 16) ;
+    text-align: right;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    text-indent: -60px;
+    margin: -5px;
+    
+}
+
+br{
+    font-size: 50px;
+}
+
+.ingredients{
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    font-size: 27px;
+}
+
+.ingredients1{
+    text-align: left;
+}
+.directions{
+    font-size: 27px;
+    font-family: 'Pacifico', cursive;
+}
+cite{
+    text-align: left;
+    display:block;
+    }
+
+article{
+    margin: 15px;}
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5% ;
+    }
+button{
+    justify-content: center;
+    background-color: beige;
+    border:black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border-radius: 70px;
+}
+
+.websites{
+    font-size: 27px;
+    font-family: 'Pacifico', cursive;
+    text-align: left;
+}
+.image1{
+    font-size: 27px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110%;
+}
+.image2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+}
+
