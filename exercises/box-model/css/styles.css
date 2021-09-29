@@ -1,7 +1,7 @@
 .box-layers{
     background-color:#eeeeee;
     padding: 2rem 1rem 4rem 1rem;
-    border: 10px solid #dddddd;
+    border-top: 10px solid #dddddd;
     margin: 4rem 0;
 }
 .h2-wrapper{
