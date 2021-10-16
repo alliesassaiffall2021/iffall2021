@@ -1,9 +1,8 @@
 body{
     font-family: 'Archivo Narrow', sans-serif;
     color:rgb(48, 48, 65);
-    background-image: url("https://i.pinimg.com/originals/e8/bb/db/e8bbdb0e4b4c746300085c02df2855d6.jpg");
-    background-size: 130%; 
-    background-position: center;
+    background-image: url("https://i.pinimg.com/originals/86/90/14/869014ea87e157354d2326a5961b20e0.png");
+    background-size: 100%; 
 }
 
 h1{
@@ -43,10 +42,9 @@ section h1{
 }
 footer{
     background-color: rgb(194, 208, 255);
-    padding: 40px 0 40px 0;
+    padding: 50px 0 50px 0;
     font-size: 18px;
     color: blue;
-    margin-bottom: 10px;
 }
 
 header .content{
