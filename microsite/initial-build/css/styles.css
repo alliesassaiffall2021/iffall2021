@@ -78,9 +78,10 @@ li{
     font-family: 'Road Rage', cursive;
     font-size: 45px;
     text-align: left;
-    margin-right: 30px;
+    margin-left: 30px;
     margin-top: 40px;
     margin-bottom: 70px;
+
 }
 .grid-container{
     display: grid;
@@ -242,4 +243,12 @@ li{
        transform: translateX(-17px);}
      100%{
        transform: translateX(0px);}
+}
+.instructions{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    color: rgb(170, 65, 65);
+    font-size: 16px;
+    margin-top: -70px;
+    margin-left: 30px;
 }
