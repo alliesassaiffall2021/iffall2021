@@ -9,7 +9,7 @@ html, body{
     margin-top: 40px;
     margin-bottom: 70px;
 }
-ul{
+.grid using-flex{
     list-style-type: none;
     display:grid;
     padding:0;
@@ -90,7 +90,7 @@ li{
     
 }
 .albums{
-        background-image: url("background.jpg");
+        background-image: url("images/background.jpg");
 }
 .image-grid{
    /* grid-column-start: 1;
@@ -147,8 +147,99 @@ li{
     color: white;
     background-color: #0074d9;
 }
-.main{
+
+.main-nav ul{
     font-family: 'Source Sans Pro', sans-serif;
-    list-style-type: none;
-    display:-webkit-box;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    font-weight:500;
+
+}
+.main-nav ul li a{
+    display: inline-block;
+    color: black;
+    padding: .2em 2em;
+    margin: 0 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: -20px;
+
+}
+.nav-b{
+    background-image: url("file:///Users/alliesassa/Documents/iffall2021/publish/microsite/initial-build/images/flame_nav.jpg");
+    height: 150px;  
+}
+.button1:hover{
+    font-weight:1000;
+    text-shadow: 0 0 8px #9c0000;
+    animation: shake .8s;}
+    @keyframes shake { 
+     0%{
+       transform: translateX(0)}
+     25%{
+       transform: translateX(17px);}   
+     50%{
+       transform: translateX(-17px);}
+     100%{
+       transform: translateX(0px);}
+}
+.button2:hover{
+    font-weight:1000;
+    text-shadow: 0 0 8px #ee0000;
+    animation: shake .8s;}
+    @keyframes shake { 
+     0%{
+       transform: translateX(0)}
+     25%{
+       transform: translateX(17px);}   
+     50%{
+       transform: translateX(-17px);}
+     100%{
+       transform: translateX(0px);}
+}
+.button3:hover{
+    font-weight:1000;
+    text-shadow: 0 0 8px #ff6a00;
+    animation: shake .8s;}
+    @keyframes shake { 
+     0%{
+       transform: translateX(0)}
+     25%{
+       transform: translateX(17px);}   
+     50%{
+       transform: translateX(-17px);}
+     100%{
+       transform: translateX(0px);}
+}
+.button4:hover{
+    font-weight:1000;
+    text-shadow: 0 0 8px #ffa600;
+    animation: shake .8s;}
+    @keyframes shake { 
+     0%{
+       transform: translateX(0)}
+     25%{
+       transform: translateX(17px);}   
+     50%{
+       transform: translateX(-17px);}
+     100%{
+       transform: translateX(0px);}
+}
+.button5:hover{
+    font-weight:1000;
+    text-shadow: 0 0 8px #fffb00;
+    animation: shake .8s;}
+    @keyframes shake { 
+     0%{
+       transform: translateX(0)}
+     25%{
+       transform: translateX(17px);}   
+     50%{
+       transform: translateX(-17px);}
+     100%{
+       transform: translateX(0px);}
 }
