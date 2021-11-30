@@ -5,7 +5,7 @@ html, body{
 .title{
     font-family: 'Road Rage', cursive;
     font-size: 80px;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 40px;
     margin-bottom: 70px;
 }
@@ -27,7 +27,7 @@ li{
 .subtitle{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
-    margin-left: 30px;
+    margin-left: 60px;
     text-transform: uppercase;
     font-weight: lighter;
     font-style: italic;
@@ -38,13 +38,15 @@ li{
     align-items: right;
     width: 75%;
     margin-left: 250px;
+    margin-right: 0px;
+    padding-right: 0px;
     margin-top: -250px;
     
 }
 .icon-image{
     align-items: right;
     width: 7%;
-    margin-left: 16px;
+    margin-left: 45px;
     margin-top: -5px;
 }
 .bottom-image{
@@ -63,6 +65,7 @@ li{
 .bio-image{
     width: 130%;
     margin-left: 0px;
+    padding-right: 30px;
 
 
 }
@@ -132,9 +135,9 @@ li{
     grid-area: 2 / 3 / last-line / 6;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
-    text-align:left;
-    margin-left: 80px;
-    margin-right: 40px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 60px;
 
 }
 .using-flex{
@@ -424,6 +427,100 @@ li{
     margin-left: 10px;
   }
 }
+@media (max-width: 865px) {
+  .title-image{
+    width: 500px;
+    padding-top: 120px;
+    padding-bottom: 40px;
+  }
+  .subtitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin-left: 60px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: -80px;
+    margin-bottom: 10px;
+}
+.title{
+  font-family: 'Road Rage', cursive;
+  font-size: 65px;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+}
+@media (max-width: 780px) {
+  .title-image{
+    width: 400px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+
+  }
+}
+@media (max-width: 650px) {
+  .title-image{
+    width: 300px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    
+  }
+}
+@media (max-width: 560px) {
+  .title-image{
+    width: 250px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .title-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 140px;
+  padding-left: 130px;
+
+  }
+  .subtitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: -120px;
+    margin-bottom: 10px;
+}
+.title{
+  font-family: 'Road Rage', cursive;
+  font-size: 55px;
+  text-align: left;
+  margin-bottom: 120px;
+  margin-top: -20px;
+}
+.icon-image{
+  align-items: right;
+  width: 7%;
+  margin-left: 56px;
+  margin-top: -5px;
+}
+}
+@media (max-width: 450px) {
+  .main-nav ul li a{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    font-weight:500;
+    font-size: 6px;
+    margin-top: 15px;
+  }
+}
 @media (max-width: 745px) {
   .main-nav ul li a{
     font-family: 'Source Sans Pro', sans-serif;
@@ -456,4 +553,153 @@ li{
     font-size: 12px;
     margin-top: 15px;
   }
+}
+@media (max-width: 1030px) {
+  .paragraph-grid{
+    grid-area: 2 / 3 / last-line / 6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 60px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 915px) {
+  .paragraph-grid{
+    grid-area: 2 / 3 / last-line / 6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 60px;
+    margin-top: -30px;
+    font-size: 13px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 730px) {
+  .paragraph-grid{
+    grid-area: 2 / 3 / last-line / 6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: -30px;
+    font-size: 13px;
+    padding-bottom: 20px;
+  }
+  .image-grid{
+    /* grid-column-start: 1;
+     grid-column-end: span col4-start; 
+     grid-column-end: five;
+     grid-row-start: 1;
+     grid-row-end: span 2;
+     grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end
+     */
+     grid-area: 2 / 4 / last-line / 1;
+     width: 200px;
+     margin-top: 250px;
+     /*margin-top: -40px; */
+  }
+  .jpegmafia-title-grid {
+    grid-area: 1 / 3 / 2 / 6;
+    font-family: 'Road Rage', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+}
+@media (max-width: 540px) {
+
+  .image-grid{
+    /* grid-column-start: 1;
+     grid-column-end: span col4-start; 
+     grid-column-end: five;
+     grid-row-start: 1;
+     grid-row-end: span 2;
+     grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end
+     */
+     grid-area: 2 / 4 / last-line / 1;
+     width: 200px;
+     margin-top: 300px;
+     /*margin-top: -40px; */
+  }
+}
+@media (max-width: 525px) {
+
+  .image-grid{
+    /* grid-column-start: 1;
+     grid-column-end: span col4-start; 
+     grid-column-end: five;
+     grid-row-start: 1;
+     grid-row-end: span 2;
+     grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end
+     */
+     grid-area: 2 / 4 / last-line / 1;
+     width: 200px;
+     margin-top: 300px;
+     /*margin-top: -40px; */
+  }
+}
+@media (max-width: 497px) {
+  .paragraph-grid{
+    grid-area: 2 / 3 / last-line / 6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -30px;
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  .image-grid{
+    /* grid-column-start: 1;
+     grid-column-end: span col4-start; 
+     grid-column-end: five;
+     grid-row-start: 1;
+     grid-row-end: span 2;
+     grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end
+     */
+     grid-area: 2 / 4 / last-line / 1;
+     width: 150px;
+     margin-top: 200px;
+     /*margin-top: -40px; */
+  }
+  .jpegmafia-title-grid {
+    grid-area: 1 / 3 / 2 / 6;
+    font-family: 'Road Rage', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+}
+@media (max-width: 429px) {
+
+  .image-grid{
+    /* grid-column-start: 1;
+     grid-column-end: span col4-start; 
+     grid-column-end: five;
+     grid-row-start: 1;
+     grid-row-end: span 2;
+     grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end
+     */
+     grid-area: 2 / 4 / last-line / 1;
+     width: 150px;
+     margin-top: 300px;
+     /*margin-top: -40px; */
+  }
+  .jpegmafia-title-grid {
+    grid-area: 1 / 3 / 2 / 6;
+    font-family: 'Road Rage', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
 }

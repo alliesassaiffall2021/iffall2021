@@ -83,11 +83,11 @@
 }
 @media (min-width: 1400px) {
     .title-image{
-      width: 900px !important;
-      padding-left: 200px !important;
+    max-width: 1100px !important;
+
     }
     .title{
-    padding-right: 250px !important;
+    text-align: center !important;
     }
     .about{
         padding-left: 130px;
