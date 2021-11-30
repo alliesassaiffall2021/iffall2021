@@ -1,0 +1,152 @@
+.title-image{
+    margin-top: 380px;
+    margin-left: 10px !important;
+
+}
+.title{
+    text-align: right;
+    margin-right: 60px;
+    padding-top: -100px;
+}
+.nav-b{
+    background-image: url("file:///Users/alliesassa/Documents/iffall2021/publish/microsite/initial-build/images/flame_nav.jpg");
+    height: 150px;  
+}
+.main-nav ul{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    font-weight:500;
+}
+.video{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about{
+    font-size: 10px;
+    font-weight:lighter;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    line-height: 27px;
+}
+
+.icon-image{
+    margin-top: 10px;
+}
+.title{
+    padding-bottom: 150px;
+    padding-top: -150px;
+}
+.albumpageh1{
+    font-family: 'Road Rage', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.inspo-image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.inspo-image{
+    margin-top: -50px;
+}
+.title-image{
+  margin-top: 380px; }
+    .nav-b{
+        background-image: url("file:///Users/alliesassa/Documents/iffall2021/publish/microsite/initial-build/images/flame_nav.jpg");
+        height: 150px;  
+    }
+    .main-nav ul{
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        list-style: none;
+        margin: 0;
+        padding:0;
+        display: flex;
+        justify-content: space-between;
+        font-weight:500;
+    }
+    .video{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .about{
+        font-size: 10px;
+        font-weight:lighter;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+        line-height: 27px;
+    }
+    
+    .icon-image{
+        margin-top: 10px;
+    }
+    .title{
+        padding-bottom: 150px;
+        padding-top: -150px;
+    }
+    .albumpageh1{
+        font-family: 'Road Rage', cursive;
+        font-size: 40px;
+        text-align: center;
+    }
+    .inspo-image{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .inspo-image{
+        margin-top: 20px;
+    }
+    .footer{
+        text-align: center;
+    }
+    @media (min-width: 1110px) {
+        .title-image{
+            display: block !important;
+            margin-left: auto !important;
+            margin-right: auto!important;
+        }
+        .title{
+            display: block !important;
+            margin-left: auto !important;
+            margin-right: auto!important;
+        }
+        .about{
+            padding-left: 130px;
+            padding-right: 130px;
+        }
+        .inspo-image{
+            max-width: 500px;
+      }
+    }
+    @media (min-width: 1400px) {
+        .title-image{
+          width: 900px !important;
+          padding-left: 200px !important;
+        }
+        .title{
+        padding-right: 250px !important;
+        }
+        .about{
+            padding-left: 130px;
+            padding-right: 130px;
+        }
+        .inspo-image{
+            max-width: 500px;
+      }
+    }
