@@ -121,7 +121,7 @@ li{
   margin-right: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../images/background.jpg");
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("/images/background.jpg");
   padding-bottom: 90px;
   margin-right: inherit;
   overflow:hidden;
@@ -212,7 +212,7 @@ li{
 
 }
 .nav-b{
-    background-image: url("../images/flame_nav.jpg");
+    background-image: url("/images/flame_nav.jpg");
     height: 150px; 
     
     
