@@ -1,12 +1,14 @@
-.title-image{
-    margin-top: 380px;
-    margin-left: 10px !important;
-
+.timage{
+    align-items: left;
+    width: 75%;
+    margin-top: -240px;
+    margin-bottom: 20px;
 }
 .title{
-    text-align: right;
-    margin-right: 60px;
+    position: relative !important;
+    margin-right: 30px;
     padding-top: -100px;
+
 }
 .nav-b{
     background-image: url("file:///Users/alliesassa/Documents/iffall2021/publish/microsite/initial-build/images/flame_nav.jpg");
@@ -29,13 +31,13 @@
 }
 
 .about{
-    font-size: 10px;
+    font-size: 12px;
     font-weight:lighter;
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
-    line-height: 27px;
+    line-height: 20px;
 }
 
 .icon-image{
@@ -49,9 +51,10 @@
     font-family: 'Road Rage', cursive;
     font-size: 40px;
     text-align: center;
+    position: relative;
 }
 .inspo-image{
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -59,95 +62,96 @@
 .inspo-image{
     margin-top: -50px;
 }
-.title-image{
-  margin-top: 380px; }
-    .nav-b{
-        background-image: url("file:///Users/alliesassa/Documents/iffall2021/publish/microsite/initial-build/images/flame_nav.jpg");
-        height: 150px;  
-    }
-    .main-nav ul{
-        font-family: 'Source Sans Pro', sans-serif;
-        text-transform: uppercase;
-        list-style: none;
-        margin: 0;
-        padding:0;
-        display: flex;
-        justify-content: space-between;
-        font-weight:500;
-    }
-    .video{
-        display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
+.footer{
+    text-align: center;
+    padding-top: 50px;
+}
+.paragraph{
+    line-height: 24px;
+}
+@media (min-width: 980px){
     .about{
-        font-size: 10px;
-        font-weight:lighter;
-        font-family: 'Source Sans Pro', sans-serif;
-        margin-left: 40px;
-        margin-right: 40px;
-        text-align: center;
-        line-height: 27px;
+        font-size: 14px;
     }
-    
-    .icon-image{
-        margin-top: 10px;
+}
+@media (max-width: 550px) {
+
+    .paragraph{
+        font-size: 13px;
+        margin-right: 0px;
+        line-height: 20px;
+        font-weight: normal;
     }
     .title{
-        padding-bottom: 150px;
-        padding-top: -150px;
+        margin-left: 10px;
+        padding-bottom: 100px;
     }
-    .albumpageh1{
-        font-family: 'Road Rage', cursive;
-        font-size: 40px;
-        text-align: center;
+    .timage{
+        padding-top: -100px;
+}
+}
+@media (min-width: 826px) {
+    .paragraph{
+        margin-right: 50px;
+        margin-left: 50px;
     }
-    .inspo-image{
-        display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
     }
-    .inspo-image{
-        margin-top: 20px;
-    }
-    .footer{
-        text-align: center;
-    }
-    @media (min-width: 1110px) {
-        .title-image{
-            display: block !important;
-            margin-left: auto !important;
-            margin-right: auto!important;
+@media (min-width: 1140px) {
+        .paragraph{
+            margin-right: 200px;
+            margin-left: 200px;
         }
-        .title{
-            display: block !important;
-            margin-left: auto !important;
-            margin-right: auto!important;
+        .albumpageh1{
+            padding-top: 20px;
+            
         }
-        .about{
-            padding-left: 130px;
-            padding-right: 130px;
         }
-        .inspo-image{
-            max-width: 500px;
-      }
-    }
-    @media (min-width: 1400px) {
-        .title-image{
-          width: 900px !important;
-          padding-left: 200px !important;
-        }
-        .title{
-        padding-right: 250px !important;
-        }
-        .about{
-            padding-left: 130px;
-            padding-right: 130px;
-        }
-        .inspo-image{
-            max-width: 500px;
-      }
+@media (max-width: 1109px) {
 
+    .inspo-image{
+        max-width: 500px;
+  }
+@media (min-width: 1110px) {
+    .paragraph{
+        margin-left: 230px !important;
+        margin-right: 230px !important;
+    }
+    .inspo-image{
+        max-width: 500px;
+  }
+}
+@media (min-width: 1400px) {
+    .about{
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .inspo-image{
+        max-width: 500px;
+  }
+}
+}
+@media (min-width: 700px) {
+    .timage{
+        align-items: left;
+        width: 500px;
+        margin-top: -240px;
+        margin-bottom: 20px;
+    }
+    .title{
+        margin-right: 30px;
+        padding-top: -100px;
+    }
+    }
+ @media (min-width: 500px) {
+        .timage{
+            margin-top: -200px;
+        }
+        }
+@media (max-width: 500px) {
+    .timage{
+        margin-top: -240px;
+    }
+    .title{
+        margin-left: 0px;
+    }
     }
