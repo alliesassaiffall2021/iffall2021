@@ -121,7 +121,7 @@ li{
   margin-right: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("file:///Users/alliesassa/Documents/iffall2021/publish/microsite/fully-realized/images/background.jpg");
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("file:///Users/alliesassa/Documents/iffall2021/publish/microsite/final/images/background.jpg");
   padding-bottom: 90px;
   margin-right: inherit;
   overflow:hidden;
@@ -212,7 +212,7 @@ li{
 
 }
 .nav-b{
-    background-image: url("file:///Users/alliesassa/Documents/iffall2021/publish/microsite/initial-build/images/flame_nav.jpg");
+    background-image: url("file:///Users/alliesassa/Documents/iffall2021/publish/microsite/final/images/flame_nav.jpg");
     height: 150px; 
     
     
