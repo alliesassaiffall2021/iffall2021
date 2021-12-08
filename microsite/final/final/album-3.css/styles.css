@@ -1,0 +1,157 @@
+.timage{
+    align-items: left;
+    width: 75%;
+    margin-top: -240px;
+    margin-bottom: 20px;
+}
+.title{
+    position: relative !important;
+    margin-right: 30px;
+    padding-top: -100px;
+
+}
+.nav-b{
+    background-image: url("file:///Users/alliesassa/Documents/iffall2021/publish/microsite/initial-build/images/flame_nav.jpg");
+    height: 150px;  
+}
+.main-nav ul{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    font-weight:500;
+}
+.video{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about{
+    font-size: 12px;
+    font-weight:lighter;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.icon-image{
+    margin-top: 10px;
+}
+.title{
+    padding-bottom: 150px;
+    padding-top: -150px;
+}
+.albumpageh1{
+    font-family: 'Road Rage', cursive;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+.inspo-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.inspo-image{
+    margin-top: -50px;
+}
+.footer{
+    text-align: center;
+    padding-top: 50px;
+}
+.paragraph{
+    line-height: 24px;
+}
+@media (min-width: 980px){
+    .about{
+        font-size: 14px;
+    }
+}
+@media (max-width: 550px) {
+
+    .paragraph{
+        font-size: 13px;
+        margin-right: 0px;
+        line-height: 20px;
+        font-weight: normal;
+    }
+    .title{
+        margin-left: 10px;
+        padding-bottom: 100px;
+    }
+    .timage{
+        padding-top: -100px;
+}
+}
+@media (min-width: 826px) {
+    .paragraph{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    }
+@media (min-width: 1140px) {
+        .paragraph{
+            margin-right: 200px;
+            margin-left: 200px;
+        }
+        .albumpageh1{
+            padding-top: 20px;
+            
+        }
+        }
+@media (max-width: 1109px) {
+
+    .inspo-image{
+        max-width: 500px;
+  }
+@media (min-width: 1110px) {
+    .paragraph{
+        margin-left: 230px !important;
+        margin-right: 230px !important;
+    }
+    .inspo-image{
+        max-width: 500px;
+  }
+}
+@media (min-width: 1400px) {
+    .about{
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .inspo-image{
+        max-width: 500px;
+  }
+}
+}
+@media (min-width: 700px) {
+    .timage{
+        align-items: left;
+        width: 500px;
+        margin-top: -240px;
+        margin-bottom: 20px;
+    }
+    .title{
+        margin-right: 30px;
+        padding-top: -100px;
+    }
+    }
+ @media (min-width: 500px) {
+        .timage{
+            margin-top: -200px;
+        }
+        }
+@media (max-width: 500px) {
+    .timage{
+        margin-top: -240px;
+    }
+    .title{
+        margin-left: 0px;
+    }
+    }
